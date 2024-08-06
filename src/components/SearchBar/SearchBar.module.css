@@ -1,13 +1,14 @@
 .form {
-    margin-top: 100px;
+    margin-top: 80px;
     display: flex;
     gap: 10px;
     justify-content: center;
 }
 
 .input {
-    width: 180px;
-    height: 30px;
+    width: 240px;
+    height: 40px;
+    border-radius: 4px;
 }
 
 .button {
@@ -16,7 +17,8 @@
     background-color: rgb(9, 11, 105);
     border-radius: 4px;
     color: aliceblue;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Roboto, sans-serif;
+    cursor: pointer;
 }
 
 button:hover {
